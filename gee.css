@@ -1,0 +1,672 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    width: 100%;
+}
+
+.first {
+    width:100%;
+    height: 100vh;
+    color: white;
+    background-image: url(image1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.overlay {
+    padding: 100px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(86, 74, 74, 0.47);
+}
+.navbar {
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    color: white;
+    background-color: rgb(72, 72, 72);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 10;
+}
+.added {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.909);
+    flex-direction: column;
+    justify-content: space-around;
+}
+.links {
+    text-decoration: none;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 25px;
+}
+#geez{
+    font-family: "Inter", sans-serif;
+    font-size: 30px;
+}
+.links:hover {
+    color: beige;
+    transition: 0.01;
+}
+.apply-btn{
+    width: 150px;
+    height: 30px;
+    border-radius: 5%;
+    color: white;
+    background-color: rgb(88, 149, 224);
+    border: none;
+    font-family: "Inter", sans-serif;
+   font-size: 15px;
+}
+.menu-btn {
+    background-color: wheat;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.apply-btn:hover {
+    font-size: 15.5px;
+    transition: 0.01;
+    background-color: #87ceeb; /* Darker blue on hover */
+}
+.pars {
+    height: auto;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.pars-title {
+    font-size: 100px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.pars-description {
+    font-size: 24px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.second {
+    width:100%;
+    height: 100vh;
+    background-color: rgba(245, 240, 240, 0.61);
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+.pars-2 {
+    padding: 30px;
+}
+.pars-2-title {
+    font-size: 50px;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 20px;
+}
+.pars-2-description {
+    width: 90%;
+    font-size: 22px;
+    font-family: "Inter", sans-serif;
+}
+.second-image {
+    border-radius: 20px;
+    height: 500px;
+}
+
+
+.third, .fourth {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(244, 240, 240, 0.61);
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+.pars-3 {
+    padding: 30px;
+}
+.pars-3-title {
+    font-size: 50px;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 20px;
+}
+.pars-3-description {
+    width: 80%;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+}
+.pars-3-description ul {
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.pars-3-description ul li {
+    margin-bottom: 20px;
+}
+.pars-3-description ul li p {
+    font-size: 20px;
+    font-weight: lighter;
+    margin-left: 20px;
+}
+.third-image {
+    border-radius: 20px;
+    height: 500px;
+}
+.fourth-image {
+    border-radius: 20px;
+    height: 500px;
+    margin-right: 30px;
+}
+
+
+#fourth {
+    color: rgb(84, 159, 202);
+}
+#innerblack{
+    color: black;
+}
+#fifth, #sixth{
+    width:100%;
+    height: auto;
+}
+
+
+.explore {
+    font-family: "Teko", sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+/* Button styling */
+/* Button styling */
+.btn1 {
+    background-color: #f4b400; /* Sunflower yellow */
+    border: 2px solid #6a754c; /* Dark green complement */
+    color: white;
+    padding: 12px 24px;
+    font-size: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'Playfair Display', serif; /* Elegant, artistic font */
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 6px 8px rgba(106, 117, 76, 0.4); /* Soft shadow with green tone */
+  }
+  
+  /* Hover effect */
+  .btn1:hover {
+    background-color: #ffcc33; /* Lighter yellow on hover */
+    transform: scale(1.05);
+    box-shadow: 0 8px 10px rgba(106, 117, 76, 0.6); /* Slightly more intense shadow */
+  }
+  /* Button styling */
+.btn3 {
+    background-color: #b2967d; /* Muted, earthy beige */
+    border: 2px solid #6a5b4d; /* Dark, warm brown */
+    color: white; /* Soft, light beige for text */
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: 'Playfair Display', serif; /* Classic, literary font */
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 4px 6px rgba(106, 91, 77, 0.4); /* Subtle shadow */
+  }
+  
+  /* Hover effect */
+  .btn3:hover {
+    background-color: #d4bfa7; /* Slightly lighter beige on hover */
+    transform: scale(1.05);
+    box-shadow: 0 6px 8px rgba(106, 91, 77, 0.5); /* Enhanced shadow on hover */
+  }
+  
+/* Button styling */
+.btn2 {
+    background-color: #b22222; /* Metallic red to match the robot's accents */
+    border: 2px solid #2a2a2a; /* Dark black-gray for contrast */
+    color: #ffffff; /* White text for sharp readability */
+    padding: 12px 28px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif; /* Sleek, modern font */
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 6px 10px rgba(42, 42, 42, 0.6); /* Futuristic shadow effect */
+  }
+  
+  /* Hover effect */
+  .btn2:hover {
+    background-color: #ff3b3b; /* Bright metallic red on hover */
+    transform: scale(1.08);
+    box-shadow: 0 8px 12px rgba(42, 42, 42, 0.8); /* Enhanced shadow for effect */
+  }
+  .btn4 {
+    background-color:black; /* Metallic red to match the robot's accents */
+    border: 2px solid rgb(234, 230, 230); /* Dark black-gray for contrast */
+    color: #ffffff; /* White text for sharp readability */
+    padding: 12px 28px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif; /* Sleek, modern font */
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 6px 10px rgba(42, 42, 42, 0.6);
+  }
+  
+  .btn4:hover {
+    background-color: #3d3d3d; /* Slightly lighter gray on hover */ /* Bright metallic red on hover */
+    transform: scale(1.08);
+    box-shadow: 0 8px 12px rgba(42, 42, 42, 0.8); /* Enhanced shadow for effect */
+  }
+
+
+  
+  
+  
+.imgs {
+    height: 80vh;
+}
+.one {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 20%;
+}
+
+.mainbox{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.abouttitle {
+    font-size: 50px;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 20px;
+    color: rgb(84, 159, 202);
+
+}
+  
+.abouttext {
+    font-size: 22px;
+    font-family: "Inter", sans-serif;
+
+}
+.team {
+    font-family: "Inter", sans-serif;
+    font-size: 40px;
+    color: rgb(84, 159, 202);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.founderbox {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.propic {
+    height: 25vh;
+    width: 15vw;
+    border-radius: 50%;
+}
+.founder1 {
+    width: 20vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+#sixth {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+.foundername {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+.ft {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 30px;
+}
+
+.text1 {
+font-family:sans-serif;
+color:rgb(160, 92, 92);
+}
+
+
+#seventh {
+    background-color: #d1ebf6;
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.socialimg {
+    width: 100px;
+    height: 100px;
+}
+
+.socialname {
+    font-family: "Inter", sans-serif;
+    font-size: 25px;
+    color: #2a2a2a; 
+}
+.sociallink {
+    text-decoration: none;
+    color: blue;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.sociallink:hover {
+    font-size: smaller;
+    transition: 0.5;
+}
+.socials{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.imgs {
+    transition: transform 0.3s, filter 0.3s;
+}
+
+.imgs:hover {
+    transform: scale(1.05); /* Zoom in on hover */
+    filter: brightness(80%); /* Darken the image */
+}
+/* Add a transition effect to all elements */
+* {
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* Add a fade-in effect to all elements on page load */
+  body {
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  /* Add a smooth scrolling effect */
+  html {
+    scroll-behavior: smooth;
+  }
+
+@media screen and (max-width: 700px) {
+    .menu-btn {
+        display: block;
+    }
+    .first {
+        height: auto;
+    }
+    .overlay {
+        padding: 10px;
+    }
+    .pars {
+        padding-top: 100px;
+    }
+    .pars-title {
+        font-size: 60px;
+        text-align: center;
+    }
+    .pars-description {
+        font-size: 30px;
+        text-align: center;
+        margin: 30px;
+    }
+    .second {
+        flex-direction: column;
+        height: auto;
+    }
+    #geez {
+        font-size: 25px;
+    }
+    .links {
+        display: none;
+    }
+    .apply-btn {
+        width: 100px;
+        height: 20px;
+    }
+    .pars-2-title {
+        font-size: 40px;
+    }
+    .pars-2-description {
+        width: 100%;
+    }
+    .second-image, .third-image, .fourth-image {
+        height: auto;
+        width: 90%;
+    }
+    .third, .fourth, #fifth {
+        flex-direction: column;
+        height: auto;
+    }
+    .pars-3-title {
+        font-size: 40px;
+    }
+    .pars-3-description {
+        width: 100%;
+    }
+    .fourth-image {
+        margin: 0;
+    }
+    .mainbox {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        width: auto;
+    }
+    .one {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    .founderbox {
+        height: auto;
+        flex-wrap: wrap;
+    }
+    .founder1 {
+        width: 30vh;
+        margin-bottom: 20px;
+    }
+    .propic {
+        width: 300px;
+        height: 300px;
+    }
+    #fifth, #sixth {
+        height: auto;
+    }
+    #seventh {
+        height: auto;
+    }
+    .mediatype {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .socials {
+        margin-top: 10px;
+    }
+    .socialimg {
+        width: 30px;
+        height: 30px;
+    }
+    .socialname {
+        font-size: 15px;
+        text-align: center;
+    }
+    .sociallink {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1280px) {
+    .menu-btn {
+        display: block;
+        width: 70px;
+        height: 70px;
+    }
+    .navbar {
+        height: 100px;
+    }
+    .first {
+        height: auto;
+    }
+    .overlay {
+        padding: 30px;
+    }
+    .pars {
+        padding-top: 100px;
+    }
+    .pars-title {
+        font-size: 90px;
+        text-align: center;
+    }
+    .pars-description {
+        font-size: 50px;
+        text-align: center;
+        margin: 30px;
+    }
+    .second {
+        flex-direction: column;
+        height: auto;
+    }
+    #geez {
+        font-size: 35px;
+    }
+    .links {
+        display: none;
+    }
+    .apply-btn {
+        width: 190px;
+        height: 40px;
+    }
+    .pars-2-title {
+        font-size: 40px;
+    }
+    .pars-2-description {
+        width: 100%;
+    }
+    .second-image, .third-image, .fourth-image {
+        height: auto;
+        width: 90%;
+    }
+    .third, .fourth, #fifth {
+        flex-direction: column;
+        height: auto;
+    }
+    .pars-3-title {
+        font-size: 40px;
+    }
+    .pars-3-description {
+        width: 100%;
+    }
+    .fourth-image {
+        margin: 0;
+    }
+    .explore {
+        font-size: 60px;
+        margin: 30px;
+    }
+    .btn1,
+    .btn2,
+    .btn3,
+    .btn4 {
+        font-size: 30px;
+    }
+    .mainbox {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        width: auto;
+    }
+    .one {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    .founderbox {
+        height: auto;
+        flex-wrap: wrap;
+    }
+    .founder1 {
+        width: 30vh;
+        margin-bottom: 20px;
+    }
+    .propic {
+        width: 300px;
+        height: 300px;
+    }
+    #fifth, #sixth {
+        height: auto;
+    }
+    #seventh {
+        height: auto;
+    }
+    .mediatype {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .ft {
+        font-size: 50px;
+    }
+    .text1 {
+        font-size: 30px;
+    }
+    .socials {
+        margin-top: 10px;
+    }
+    .socialimg {
+        width: 60px;
+        height: 60px;
+    }
+    .socialname {
+        font-size: 25px;
+        text-align: center;
+    }
+    .sociallink {
+        font-size: 20px;
+    }
+}
